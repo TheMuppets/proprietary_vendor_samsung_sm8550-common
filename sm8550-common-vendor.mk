@@ -185,6 +185,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
+    btaudio_offload_if \
     cdsp_face \
     com.qti.qseeaon \
     com.qti.qseeutils \
@@ -197,7 +198,9 @@ PRODUCT_PACKAGES += \
     libq3dtools_adreno \
     libq3dtools_esx \
     ese_spi_nxp \
+    android.hardware.bluetooth.audio-impl-qti \
     android.hardware.gnss-aidl-impl-qti \
+    audio.bluetooth_qti.default \
     camera.unihal.default \
     gatekeeper.mdfpp \
     libsecaudiohal_aidl \
@@ -317,6 +320,9 @@ PRODUCT_PACKAGES += \
     libbeautyshot.arcsoft \
     libbitmlengine \
     libbitmlenginev2 \
+    libbluetooth_audio_session_aidl_qti \
+    libbluetooth_audio_session_qti \
+    libbluetooth_audio_session_qti_2_1 \
     libbodyid.arcsoft \
     libc++_shared \
     libc2filterplugin \
